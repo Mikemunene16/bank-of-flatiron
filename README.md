@@ -1,3 +1,16 @@
+# Project: Bank of Flatiron
+
+#### The app gives displays a list of your recent bank transactions, among other features.
+
+#### Author: **{Mike Munene}**
+
+## Project Description
+
+It's a React app that displays a list of your recent bank transactions, among other features.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

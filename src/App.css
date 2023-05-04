@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.nav-bar{
+  background-color: gray;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-bar-right{
+  float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+#home {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+#home td, #home th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#home tr:nth-child(even){
+  background-color: gray;
+  color: black;
+}
+
+#home tr:hover {background-color: burlywood;}
+
+#home th {
+  padding: 12px 0 12px 0;
+  text-align: left;
+  background-color: burlywood;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.deletebutton, .buttonDescription, .buttonCategory{
+  font-size: 18px;
+  margin: 5px;
+}
+.deletebutton:hover{
+  background-color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addNewTransaction{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 60px;
+  border: 2px solid #353636;
+  padding: 20px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(39, 39, 39, 0.2);
+  
+} 
+.addNewTransaction input, select{
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.addNewTransaction h2{
+  text-align: center;
+  
+}
+.addNewTransaction button{
+  background-color: blue;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.addNewTransaction button:hover{
+  background-color: aqua;
+}
+
+.buttonCategory{
+  background-color: green;
+  color: white;
+}
+.buttonCategory:hover{
+  background-color: rgb(4, 175, 18);
+}
+
+.buttonDescription{
+  background-color: yellow;
+}
+
+.buttonDescription:hover{
+  background-color: rgb(172, 172, 10);
+  
 }
